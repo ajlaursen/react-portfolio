@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Nav = () => {
+const PlaceHolder = () => {
     return (
-        <div className=""></div>
+        <div className="h-16 bg-white"></div>
     )}
+
+export default PlaceHolder

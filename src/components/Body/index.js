@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from '../Title';
 import Lorem from '../Lorem';
+import PlaceHolder from '../PlaceHolder';
 
 const Body = () => {
     return (
@@ -18,6 +19,7 @@ const Body = () => {
         <Lorem />
         <Lorem />
         <Lorem />
+        <PlaceHolder />
         </div>       
     </>
     )
