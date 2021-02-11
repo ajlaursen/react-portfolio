@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="flex justify-between items-center h-14 text-white">
+    <nav className="flex fixed w-screen justify-between items-center h-14 text-white cool-bg">
       <Link to="/" className="pl-8">
         Alex Laursen
       </Link>
@@ -22,19 +22,19 @@ const Nav = () => {
         </svg>
       </div>
       <div className="pr-8 md:block hidden">
-        <Link className="p-4" to="/">
+        <Link className="p-4 hover:text-gray-200" to="/">
           Home
         </Link>
-        <Link className="p-4" to="/codingPortfolio">
+        <Link className="p-4 hover:text-gray-200" to="/codingPortfolio">
           Coding Portfolio
         </Link>
-        <Link className="p-4" to="/resume">
+        <Link className="p-4 hover:text-gray-200" to="/resume">
           Resume
         </Link>
-        <Link className="p-4" to="/videoProduction">
+        <Link className="p-4 hover:text-gray-200" to="/videoProduction">
           Video Production
         </Link>
-        <Link className="p-4" to="/contactMe">
+        <Link className="p-4 hover:text-gray-200" to="/contactMe">
           Contact Me
         </Link>
       </div>
