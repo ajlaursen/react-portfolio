@@ -1,6 +1,6 @@
 import React from "react";
 
-const Nav = ({toggle}) => {
+const Nav = ({ toggle }) => {
   return (
     <nav className="flex fixed w-screen justify-between items-center h-14 cool-bg">
       <a href="#top" to="/" className="pl-8">
@@ -24,7 +24,11 @@ const Nav = ({toggle}) => {
         <a href="#about" className="p-4 hover:text-gray-200" to="/">
           About
         </a>
-        <a href="#coding" className="p-4 hover:text-gray-200" to="/codingPortfolio">
+        <a
+          href="#coding"
+          className="p-4 hover:text-gray-200"
+          to="/codingPortfolio"
+        >
           Coding Portfolio
         </a>
         <a href="#resume" className="p-4 hover:text-gray-200" to="/resume">

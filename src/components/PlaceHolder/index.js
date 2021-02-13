@@ -1,8 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const PlaceHolder = () => {
-    return (
-        <div className="h-16 bg-white"></div>
-    )}
+  return <div className="h-16 bg-white"></div>;
+};
 
-export default PlaceHolder
+export default PlaceHolder;
