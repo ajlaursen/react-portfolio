@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Nav = ({toggle}) => {
   return (
     <nav className="flex fixed w-screen justify-between items-center h-14 cool-bg">
-      <Link to="/" className="pl-8">
+      <a href="#top" to="/" className="pl-8">
         <b>Alex Laursen</b>
-      </Link>
+      </a>
       <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
         <svg
           className="w-6 h-6"
@@ -22,21 +21,18 @@ const Nav = ({toggle}) => {
         </svg>
       </div>
       <div className="pr-8 md:block hidden">
-        <Link className="p-4 hover:text-gray-200" to="/">
-          Home
-        </Link>
-        <Link className="p-4 hover:text-gray-200" to="/codingPortfolio">
+        <a href="#about" className="p-4 hover:text-gray-200" to="/">
+          About
+        </a>
+        <a href="#coding" className="p-4 hover:text-gray-200" to="/codingPortfolio">
           Coding Portfolio
-        </Link>
-        <Link className="p-4 hover:text-gray-200" to="/resume">
+        </a>
+        <a href="#resume" className="p-4 hover:text-gray-200" to="/resume">
           Resume
-        </Link>
-        <Link className="p-4 hover:text-gray-200" to="/videoProduction">
-          Video Production
-        </Link>
-        <Link className="p-4 hover:text-gray-200" to="/contactMe">
+        </a>
+        <a href="#contact" className="p-4 hover:text-gray-200" to="/contactMe">
           Contact Me
-        </Link>
+        </a>
       </div>
     </nav>
   );
