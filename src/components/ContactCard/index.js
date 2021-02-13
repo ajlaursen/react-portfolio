@@ -1,5 +1,5 @@
 import React from "react";
-import Alex from "../../assets/Images/alex-headshot.jpeg";
+
 
 const ContactCard = () => {
   return (
@@ -7,7 +7,7 @@ const ContactCard = () => {
       <div className="rounded rounded-t-lg overflow-hidden shadow-xl max-w-xs my-3">
         <div className="flex justify-center -mt-8">
           <img
-            src={Alex}
+            src="/images/alex-headshot.jpeg"
             className="rounded-xl border-solid border-white border-2 "
             alt="Alex Headshot"
           />
