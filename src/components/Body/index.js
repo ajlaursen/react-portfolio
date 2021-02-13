@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../Title";
-import Lorem from "../Lorem";
+import About from "../About";
 import PlaceHolder from "../PlaceHolder";
 import CodeCard from "../CodeCard";
 import Resume from "../Resume";
@@ -13,7 +13,7 @@ const Body = () => {
         <a name="top"></a>
         <Title />
         <a name="about"></a>
-        <Lorem />
+        <About />
         <a name="coding"></a>
         <CodeCard />
         <a name="resume"></a>

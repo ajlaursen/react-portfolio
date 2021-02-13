@@ -1,13 +1,13 @@
 import React from "react";
-import alex from "../../Images/alex.jpg";
 
-const Lorem = () => {
+
+const About = () => {
   return (
     <div className="container mx-auto">
       <div className="flex md:flex-row flex-col content-center items-center shadow-2xl rounded-lg border-2 mb-16">
         <div className="flex-1">
           <img
-            src={alex}
+            src="/Images/alex.jpg"
             alt="alex and sophie in front of broken down snowplow black"
           />
         </div>
@@ -35,4 +35,4 @@ const Lorem = () => {
     </div>
   );
 };
-export default Lorem;
+export default About;
