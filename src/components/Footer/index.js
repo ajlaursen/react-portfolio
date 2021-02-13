@@ -9,16 +9,16 @@ const Footer = () => {
 
   return (
     <div className="flex justify-center items-center h-14 cool-bg  text-white pin-b fixed w-screen bottom-0">
-      <a href="https://github.com/ajlaursen">
+      <a target="blank" href="https://github.com/ajlaursen">
         <img className="object-scale-down" src={gitHub} alt="git hub" />
       </a>
-      <a href="https://www.linkedin.com/in/ajlaursen/">
+      <a target="blank" href="https://www.linkedin.com/in/ajlaursen/">
         <img className="object-scale-down" src={linkedin} alt="linked in" />
       </a>
-      <a href="https://www.youtube.com/ajlaursen">
+      <a target="blank" href="https://www.youtube.com/ajlaursen">
         <img className="object-scale-down" src={youtube} alt="youtube" />
       </a>
-      <a href="https://www.instagram.com/completecycling/">
+      <a target="blank" href="https://www.instagram.com/completecycling/">
         <img className="object-scale-down" src={instagram} alt="instagram" />
       </a>
     </div>

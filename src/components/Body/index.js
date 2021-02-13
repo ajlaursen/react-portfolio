@@ -2,6 +2,8 @@ import React from 'react';
 import Title from '../Title';
 import Lorem from '../Lorem';
 import PlaceHolder from '../PlaceHolder';
+import CodeCard from "../CodeCard"
+import Resume from '../Resume';
 
 const Body = () => {
     return (
@@ -9,16 +11,8 @@ const Body = () => {
         <div className="my-14">
         <Title />
         <Lorem />
-        <Lorem />
-        <Lorem />
-        <Lorem />
-        <Lorem />
-        <Lorem />
-        <Lorem />
-        <Lorem />
-        <Lorem />
-        <Lorem />
-        <Lorem />
+        <CodeCard />
+        <Resume />
         <PlaceHolder />
         </div>       
     </>

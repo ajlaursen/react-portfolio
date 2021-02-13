@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Nav = ({toggle}) => {
   return (
-    <nav className="flex fixed w-screen justify-between items-center h-14 text-white cool-bg">
+    <nav className="flex fixed w-screen justify-between items-center h-14 cool-bg">
       <Link to="/" className="pl-8">
-        Alex Laursen
+        <b>Alex Laursen</b>
       </Link>
       <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
         <svg
