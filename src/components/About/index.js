@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const About = () => {
   return (
     <div className="container mx-auto">
@@ -22,7 +21,8 @@ const About = () => {
           <br />
           <br />
           <b>Technical Skills:</b> React, Javascript, Jquery, HTML, CSS,
-          Bootstrap, Mongo, Mongoose, MySql, Sequelize, Handlebars, Python
+          TailwindCSS, Bootstrap, Mongo, Mongoose, MySql, Sequelize, Handlebars,
+          Python
           <br />
           <br />
           Things I enjoy outside of the professional realm vary greatly. I enjoy
