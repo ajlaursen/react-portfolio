@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="flex justify-center items-center h-14 cool-bg  text-white pin-b fixed w-screen bottom-0">
       <a target="blank" href="https://github.com/ajlaursen">
-        <img className="object-scale-down" src="/Images/src/iconfinder_github_317712-2.png" alt="git hub" />
+        <img className="object-scale-down" src="/Images/iconfinder_github_317712-2.png" alt="git hub" />
       </a>
       <a target="blank" href="https://www.linkedin.com/in/ajlaursen/">
         <img className="object-scale-down" src="/Images/iconfinder_Circled_Linkedin_svg_5279114.png" alt="linked in" />
