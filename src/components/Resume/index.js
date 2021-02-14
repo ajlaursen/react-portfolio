@@ -11,8 +11,9 @@ const Resume = () => {
         </button>
       </div>
 
-      <div className="md:flex justify-center items-center w-full mx-auto hidden ">
+      <div className="md:flex justify-center items-center w-full mx-auto hidden">
         <iframe
+          className="shadow-xl"
           height="900"
           width="1000"
           title="resume"

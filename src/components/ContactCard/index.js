@@ -4,11 +4,11 @@ import React from "react";
 const ContactCard = () => {
   return (
     <div className="flex items-center justify-center mt-14">
-      <div className="rounded rounded-t-lg overflow-hidden shadow-xl max-w-xs my-3">
+      <div className="rounded rounded-t-lg overflow-hidden shadow-xl max-w-xs my-3 ">
         <div className="flex justify-center -mt-8">
           <img
             src="/images/alex-headshot.jpeg"
-            className="rounded-xl border-solid border-white border-2 "
+            className="max-h-72"
             alt="Alex Headshot"
           />
         </div>
