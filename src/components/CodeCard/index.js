@@ -14,7 +14,7 @@ const CodeCard = () => {
             {/* projects */}
             <div className="overflow-hidden rounded-lg shadow-lg">
               <div className="overflow-hidden max-h-32">
-                <a href={result.liveLink}>
+                <a href={result.liveLink} rel="noreferrer">
                   <img
                     alt="screenshot"
                     className="block w-full"
@@ -38,12 +38,12 @@ const CodeCard = () => {
               </div>
               <div className="flex items-center justify-center mb-2">
                 <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full">
-                  <a href={result.liveLink} target="_blank">
+                  <a href={result.liveLink} target="_blank" rel="noreferrer">
                     Live Link
                   </a>
                 </button>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                  <a href={result.repo} target="_blank">
+                  <a href={result.repo} target="_blank" rel="noreferrer">
                     Repo
                   </a>
                 </button>
