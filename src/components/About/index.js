@@ -21,7 +21,7 @@ const About = () => {
           <br />
           <br />
           <b>Technical Skills:</b> React, Javascript, Jquery, HTML, CSS,
-          TailwindCSS, Bootstrap, Mongo, Mongoose, MySql, Sequelize, Handlebars,
+          TailwindCSS, Bootstrap, AWS, Mongo, Mongoose, MySql, Sequelize, Handlebars,
           Python
           <br />
           <br />
