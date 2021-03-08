@@ -1,5 +1,16 @@
 let projects = [
   {
+    title: "PIXI.pics",
+    des1:
+      "A social media and photography sale site where creators and enthusiasts can come together and support one another",
+    des2:
+      "Created ZWS S3 functionality as well as some UI/UX components like photo upload buttons",
+    tech: "React, AWS, Javascript, Mongo, Mongoose, Node, Express, HTML, Tailwind, CSS",
+    img: "/images/pixi-screenshot1.png",
+    liveLink: "http://pixi.pics",
+    repo: "https://github.com/ajlaursen/pixi",
+  },
+  {
     title: "Bikes and Brews",
     des1:
       "Enter a zip code or allow the browser to send location to show five closest mountain bike trails and breweries",
@@ -54,17 +65,7 @@ let projects = [
     liveLink: "https://ajlaursen.github.io/Bikes-And-Brews/",
     repo: "https://github.com/ajlaursen/Bikes-And-Brews",
   },
-  {
-    title: "(WIP) JS Chess Board",
-    des1:
-      "This is a work in progress collaborating with peers to create an interactive chess board",
-    des2:
-      "Future plans: chat between players, allow users to play remotely, full chess rules implementation",
-    tech: "Javascript, HTML, Bootstrap, CSS",
-    img: "/images/chess-screenshot.png",
-    liveLink: "https://ajlaursen.github.io/chess/",
-    repo: "https://github.com/ajlaursen/chess",
-  },
+ 
  
 ];
 
