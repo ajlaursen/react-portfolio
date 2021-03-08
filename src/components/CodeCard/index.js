@@ -13,7 +13,7 @@ const CodeCard = () => {
           >
             {/* projects */}
             <div className="overflow-hidden rounded-lg shadow-lg">
-              <div className="overflow-hidden max-h-32">
+              <div className="overflow-hidden max-h-64">
                 <a href={result.liveLink} rel="noreferrer">
                   <img
                     alt="screenshot"

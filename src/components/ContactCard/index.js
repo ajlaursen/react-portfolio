@@ -14,7 +14,7 @@ const ContactCard = () => {
         </div>
         <div className="text-center px-3 pb-6 pt-2">
           <h3 className="text-gray-900 ">Alex Laursen</h3>
-          <p className="mt-2 text-grey-700">Contact</p>
+          <p className="mt-2 text-grey-700">Contact Me:</p>
           <p>
             <br />
             Email:{" "}
