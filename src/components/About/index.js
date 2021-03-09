@@ -15,8 +15,7 @@ const About = () => {
           experience bridges many professional fields from Zamboni operator to
           being the mechanic for some of the most elite level cyclists in the
           world. These experiences have led to a high attention to detail and
-          desire for creating efficient and repeatable process. Currently I am
-          pursing a Certificate in Full Stack Web Development from the
+          desire for creating efficient and repeatable process. I have graduated with a Certificate in Full Stack Web Development from the
           University of Utah.
           <br />
           <br />
