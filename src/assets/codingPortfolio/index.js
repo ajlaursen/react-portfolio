@@ -62,8 +62,8 @@ let projects = [
       "Constructed widget and conceptualized app",
     tech: "Javascript, HTML, Bootstrap, CSS",
     img: "/images/ww-screenshot.png",
-    liveLink: "https://ajlaursen.github.io/Bikes-And-Brews/",
-    repo: "https://github.com/ajlaursen/Bikes-And-Brews",
+    liveLink: "https://ajlaursen.github.io/ajlaursens-weather-widget/",
+    repo: "https://github.com/ajlaursen/ajlaursens-weather-widget",
   },
  
  
