@@ -7,7 +7,7 @@ let projects = [
       "Created ZWS S3 functionality as well as some UI/UX components like photo upload buttons",
     tech: "React, AWS, Javascript, Mongo, Mongoose, Node, Express, HTML, Tailwind, CSS",
     img: "/images/pixi-screenshot1.png",
-    liveLink: "http://pixi.pics",
+    liveLink: "https://pixi.pics",
     repo: "https://github.com/ajlaursen/pixi",
   },
   {
