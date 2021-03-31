@@ -1,7 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 import projects from "../../assets/codingPortfolio";
+import Modal from "react-modal"
 
-const CodeCard = () => {
+
+
+  function CodeCard(){
+  
+    const [showModal, setShowModal] = useState(false)
+
+    // trying different ways to change state
+    // function closeModal(){
+      
+    //   console.log(showModal)
+    // }
+
   return (
     <div className="container my-12 mx-auto px-4 md:px-12">
       <div className="flex flex-wrap -mx-1 lg:-mx-4">
@@ -12,16 +24,18 @@ const CodeCard = () => {
             key={index}
           >
             {/* projects */}
-            <div className="overflow-hidden rounded-lg shadow-lg">
-              <div className="overflow-hidden max-h-64">
-                <a href={result.liveLink} rel="noreferrer">
+            <div className="overflow-hidden rounded-lg shadow-lg content-center" onClick={() => setShowModal(true)}>
+              
+              <div className="overflow-hidden h-64 cursor-pointer " >
+                
                   <img
                     alt="screenshot"
                     className="block w-full"
                     src={result.img}
+                    
                   />
-                </a>
               </div>
+              <Modal isOpen={showModal} ariaHideApp={false}>
               <header className="flex items-center justify-center leading-tight p-2 md:p-4 font-black">
                 {result.title}
               </header>
@@ -47,7 +61,11 @@ const CodeCard = () => {
                     Repo
                   </a>
                 </button>
+                {/* need to figure out why this button wont close my modal */}
+                <button className="bg-red-400 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full" onClick={() => setShowModal(false)}> Close</button>
+                
               </div>
+              </Modal>
             </div>
           </div>
         ))}
