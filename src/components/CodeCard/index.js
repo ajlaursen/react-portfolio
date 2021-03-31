@@ -5,6 +5,8 @@ import Modal from "react-modal";
 function CodeCard() {
 	const [showModal, setShowModal] = useState(false);
 
+	const [activeProject, setActiveProject] = useState(projects[0])
+
 	const customStyles = {
 		content: {
 			top: "50%",
@@ -15,6 +17,7 @@ function CodeCard() {
 			transform: "translate(-50%, -50%)",
 		},
 	};
+
 
 	return (
 		<>
@@ -38,7 +41,11 @@ function CodeCard() {
 							<div className="overflow-hidden rounded-lg shadow-lg">
 								<div
 									className="overflow-hidden h-64 cursor-pointer"
-									onClick={() => setShowModal(true)}
+									onClick={(e) => {
+										e.stopPropagation();
+										setShowModal(true);
+										setActiveProject(projects[index])
+									}}
 								>
 									<img
 										alt="screenshot"
@@ -52,28 +59,28 @@ function CodeCard() {
 									style={customStyles}
 								>
 									<header className="flex items-center justify-center leading-tight p-2 md:p-4 font-black">
-										{result.title}
+										{activeProject.title}
 									</header>
 									<div className="flex items-center justify-between leading-none p-2 md:p-4">
 										<ul className="ml-2 divided">
 											<li className="text-grey-700">
-												{result.des1}
+												{activeProject.des1}
 											</li>
 											<br />
 											<li className="text-grey-700">
-												{result.des2}
+												{activeProject.des2}
 											</li>
 											<br />
 											<li className="text-grey-700">
 												<b>Technologies:</b>{" "}
-												{result.tech}
+												{activeProject.tech}
 											</li>
 										</ul>
 									</div>
 									<div className="flex items-center justify-center mb-2">
 										<button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full">
 											<a
-												href={result.liveLink}
+												href={activeProject.liveLink}
 												target="_blank"
 												rel="noreferrer"
 											>
@@ -82,7 +89,7 @@ function CodeCard() {
 										</button>
 										<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
 											<a
-												href={result.repo}
+												href={activeProject.repo}
 												target="_blank"
 												rel="noreferrer"
 											>

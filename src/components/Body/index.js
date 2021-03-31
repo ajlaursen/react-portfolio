@@ -10,15 +10,15 @@ const Body = () => {
   return (
     <>
       <div className="my-14">
-        <a name="top"></a>
+        <a name="top" className="absolute -top-10"></a>
         <Title />
-        <a name="about"></a>
+        <a name="about" className=" relative -top-16"></a>
         <About />
-        <a name="coding"></a>
+        <a name="coding" className=" relative -top-16"></a>
         <CodeCard />
-        <a name="resume"></a>
+        <a name="resume" className=" relative -top-16"></a>
         <Resume />
-        <a name="contact"></a>
+        <a name="contact" className=" relative -top-16"></a>
         <ContactCard />
         <PlaceHolder />
       </div>
