@@ -14,7 +14,7 @@ const Resume = () => {
       <div className="md:flex justify-center items-center w-full mx-auto hidden">
         <iframe
           className="shadow-xl"
-          height="900"
+          height="1600"
           width="1000"
           title="resume"
           src="https://docs.google.com/document/d/e/2PACX-1vQ8LkaCcrpO3mWwlKAPy19uPUovP7STVtu4LxTu_f2-CQ3M9PlBDoFMkR1VyOERfg7jtbd9oKNZ-jjw/pub?embedded=true"
