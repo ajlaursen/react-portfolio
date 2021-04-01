@@ -34,11 +34,11 @@ function CodeCard() {
 					{/*  columns */}
 					{projects.map((result, index) => (
 						<div
-							className="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3"
+							className="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 "
 							key={index}
 						>
 							{/* projects */}
-							<div className="overflow-hidden rounded-lg shadow-lg">
+							<div className="overflow-hidden rounded-lg shadow-lg hover:shadow-2xl">
 								<div
 									className="overflow-hidden h-64 cursor-pointer"
 									onClick={(e) => {
@@ -49,7 +49,7 @@ function CodeCard() {
 								>
 									<img
 										alt="screenshot"
-										className="block w-full m-auto"
+										className="w-full"
 										src={result.img}
 									/>
 								</div>
