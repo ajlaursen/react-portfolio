@@ -28,7 +28,7 @@ function App() {
     <div className="flex flex-col h-screen">
       <Nav toggle={toggle} />
       <DropDown isOpen={isOpen} toggle={toggle} />
-      <Body />
+      <Body/>
       <Footer />
     </div>
   );

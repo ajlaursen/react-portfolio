@@ -38,9 +38,9 @@ function CodeCard() {
 							key={index}
 						>
 							{/* projects */}
-							<div className="overflow-hidden rounded-lg shadow-lg hover:shadow-2xl">
+							<div className="overflow-hidden rounded-lg shadow-lg hover:shadow-2xl ">
 								<div
-									className="overflow-hidden h-64 cursor-pointer"
+									className="overflow-hidden h-64 cursor-pointer bg-gray-100 flex flex-col justify-center"
 									onClick={(e) => {
 										e.stopPropagation();
 										setShowModal(true);
@@ -49,7 +49,7 @@ function CodeCard() {
 								>
 									<img
 										alt="screenshot"
-										className="w-full"
+										className="w-full "
 										src={result.img}
 									/>
 								</div>
