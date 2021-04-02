@@ -11,12 +11,12 @@ const About = () => {
 					/>
 				</div>
 				<div className="text-grey-700 p-4 flex-1 ">
-					Hello my name is Alex Laursen. I am a budding software
+					Hello, my name is Alex Laursen. I am a budding software
 					developer! My experience bridges many professional fields
 					from Zamboni operator to being the mechanic for some of the
 					most elite level cyclists in the world. These experiences
 					have led to a high attention to detail and desire for
-					creating efficient and repeatable process. I have graduated
+					creating efficient and repeatable processes. I have graduated
 					with a Certificate in Full Stack Web Development from the
 					University of Utah.
 					<br />
