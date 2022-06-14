@@ -11,7 +11,7 @@ const About = () => {
 					/>
 				</div>
 				<div className="text-grey-700 p-4 flex-1 ">
-					Hello, my name is Alex Laursen. I am a budding software
+					Hello, my name is Alex Laursen. I am a creative software
 					developer! My experience bridges many professional fields
 					from Zamboni operator to being the mechanic for some of the
 					most elite level cyclists in the world. These experiences
@@ -21,8 +21,8 @@ const About = () => {
 					University of Utah.
 					<br />
 					<br />
-					<b>Technical Skills:</b> React, Javascript, Jquery, HTML,
-					CSS, TailwindCSS, Bootstrap, AWS, Mongo, Mongoose, MySql,
+					<b>Technical Skills:</b> React, Vue.JS, Javascript, Jquery, HTML,
+					CSS, Magento2, PHP, Docker, SASS, TailwindCSS, Bootstrap, AWS, Mongo, Mongoose, MySql,
 					Sequelize, Handlebars, Python
 					<br />
 					<br />
